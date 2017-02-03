@@ -12,8 +12,7 @@ var port = process.env.LOG_SERVICE_PORT;
 
 /**
  * Class to provide logging facilities for the microservice
- * @class
- * @returns {Logger} Logger
+ * @constructor
  */
 
 var Logger = function () {

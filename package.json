@@ -12,7 +12,11 @@
   "author": "Tarun Batra <tarun.batra@codebrahma.com>",
   "license": "MIT",
   "dependencies": {
+    "amqp-rpc": "0.0.8",
     "mongoose": "^4.8.1",
+    "servicebus": "^2.0.8",
+    "servicebus-retry": "0.0.11",
+    "underscore": "^1.8.3",
     "winston": "^2.3.1",
     "winston-papertrail": "^1.0.4"
   },
