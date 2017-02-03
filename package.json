@@ -4,6 +4,7 @@
   "description": "A template for developing a microservice",
   "main": "index.js",
   "scripts": {
+    "generate-docs": "jsdoc ./app/*.js ./app/**/*.js -d docs",
     "lint": "eslint ./ --ext .js",
     "start": "node index.js",
     "start:dev": "nodemon index.js",
@@ -22,6 +23,20 @@
   },
   "devDependencies": {
     "eslint": "^1.10.3",
+    "jsdoc": "^3.4.3",
     "nodemon": "^1.11.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tarunbatra/microservice-template.git"
+  },
+  "keywords": [
+    "microservice",
+    "boilerplate",
+    "template"
+  ],
+  "bugs": {
+    "url": "https://github.com/tarunbatra/microservice-template/issues"
+  },
+  "homepage": "https://github.com/tarunbatra/microservice-template#readme"
 }
