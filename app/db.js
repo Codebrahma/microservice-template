@@ -4,7 +4,7 @@
  */
 
 var mongoose = require('mongoose');
-var logger = require('./../logger');
+var logger = require('./logger');
 
 module.exports = function () {
 
