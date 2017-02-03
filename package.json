@@ -1,0 +1,22 @@
+{
+  "name": "microservice-template",
+  "version": "0.0.1",
+  "description": "A template for developing a microservice",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./ --ext .js",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "test": "npm run lint"
+  },
+  "author": "Tarun Batra <tarun.batra@codebrahma.com>",
+  "license": "MIT",
+  "dependencies": {
+    "winston": "^2.3.1",
+    "winston-papertrail": "^1.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^1.10.3",
+    "nodemon": "^1.11.0"
+  }
+}
