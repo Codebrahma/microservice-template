@@ -16,7 +16,7 @@ module.exports = function () {
   });
 
   mongoose.connection.on('disconnected', () => {
-    logger.info('Desconnected from Database');
+    logger.info('Disconnected from Database');
   });
 
   mongoose.connection.on('error', (err) => {

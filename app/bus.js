@@ -9,7 +9,7 @@ var amqpRPC = require('amqp-rpc');
 var logger = require('./logger');
 
 // Get rabbitMQ URL
-var rabbitmqUrl = process.env_RABBITMQ_URL;
+var rabbitmqUrl = process.env.RABBITMQ_URL;
 
 /**
  * Class to provide event-bus and rpc facilities for the microservice
