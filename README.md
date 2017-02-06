@@ -2,10 +2,12 @@
 A template for developing a microservice
 
 # Installation
-`npm install`
+* `npm install`
 
 # Run
-`npm start`
+* Make sure you have a RabbitMQ broker running.
+* Set environment variables like `MONGO_URL` and `RABBITMQ_URL`. Full list in the wiki.
+* `npm start`
 
 # Test
 `npm test`
